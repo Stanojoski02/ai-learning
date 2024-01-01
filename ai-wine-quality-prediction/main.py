@@ -7,6 +7,7 @@ import matplotlib.pyplot as pyplot
 import pickle
 from matplotlib import style
 
+
 data = pd.read_csv('winequality-red.csv', sep=';')[:1000]
 keys = data.keys()
 keys = [i for i in keys]
